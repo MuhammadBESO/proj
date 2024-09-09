@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active {
+    background-color: #4CAF50;
+    padding: 5px;
+}
+
+@layer components{
+    .container {
+        @apply max-w-7xl px-4 self-center;
+    }
+}
